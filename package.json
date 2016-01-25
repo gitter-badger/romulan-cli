@@ -1,0 +1,44 @@
+{
+  "name": "romulan-cli",
+  "version": "0.0.0",
+  "description": "Romulan Command Line Interpreter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miniarray/romulan-cli.git"
+  },
+  "keywords": [
+    "games",
+    "cli"
+  ],
+  "author": "Simon W. Jackson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miniarray/romulan-cli/issues"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "prompt": "^0.2.14",
+    "cli-table": "^0.3.1",
+    "romulan": "latest"
+  },
+  "bin": {
+    "romulan": "bin/romulan"
+  },
+  "preferGlobal": true,
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "chai-as-promised": "^5.2.0",
+    "codecov": "^1.0.1",
+    "commitizen": "^2.5.0",
+    "cz-conventional-changelog": "^1.1.5",
+    "ghooks": "^1.0.3",
+    "istanbul": "^0.4.2",
+    "mocha": "^2.3.4",
+    "semantic-release": "^4.3.5"
+  },
+  "homepage": "https://github.com/miniarray/romulan-cli#readme"
+}
