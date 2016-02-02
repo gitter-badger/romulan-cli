@@ -19,4 +19,6 @@
 
 # romulan-cli
 
+[![Join the chat at https://gitter.im/miniArray/romulan-cli](https://badges.gitter.im/miniArray/romulan-cli.svg)](https://gitter.im/miniArray/romulan-cli?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Command line interface for romulan
